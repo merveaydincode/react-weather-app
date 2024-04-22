@@ -1,0 +1,33 @@
+
+
+.header {
+  background-color: #fff; /* Header'ın varsayılan arka plan rengi */
+  color: #333; /* Header'ın varsayılan metin rengi */
+  padding: 10px; /* Kenar boşluğu */
+}
+
+.dark-theme .header {
+  background-color: #2f364a; /* Header'ın karanlık tema arka plan rengi */
+  color: #fff; /* Header'ın karanlık tema metin rengi */
+}
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fff;
+    color: black;
+    padding: 14px;
+  }
+  
+  .weather {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    margin-right: 900px;
+  }
+  
+  

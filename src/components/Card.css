@@ -1,0 +1,72 @@
+ .location p {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-left: 90px;
+}   
+.temp p {
+    color: #fff;
+    font-size: 2.1rem;
+    font-weight: 500;
+    margin-left: 88px;
+}
+.description p {
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-left: 90px;
+    margin-bottom: -28px;
+}
+
+
+.card{
+    border-radius: 10px;
+    margin: 20px;
+    margin-left: 410px;
+    padding: 20px;
+    width: 280px;
+    height: 250px;
+    background-image: url('../assets/sunsett.jpg');
+    background-size:  280px 250px;
+    z-index: 1;
+    position: absolute;
+
+}
+ .container {
+    max-width: 70px;
+    height: 70px;
+    margin: auto;
+    position: relative;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} 
+.card .bottom {
+    margin-top: 56px;
+    margin-right: 0px;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    width: 240px;
+    font-size: 1.1rem;
+    padding: 10px; 
+    border-radius: 12px;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.bold {
+    font-weight: 500;
+}
+
+.feels p {
+    font-size: 14px; 
+}
+.humidity p {
+    font-size: 14px;
+}
+.wind p {
+    font-size: 14px;
+}
+
